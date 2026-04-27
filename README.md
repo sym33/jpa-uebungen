@@ -36,11 +36,11 @@ src/main/resources/META-INF/persistence.xml
 Voreingestellt sind lokale Datenbanken:
 
 ```text
-jdbc:postgresql://localhost:5432/jpa_uebung1
-jdbc:postgresql://localhost:5432/jpa_uebung2
+jdbc:postgresql://10.248.11.105:5432/jpa_uebung1
+jdbc:postgresql://10.248.11.105:5432/jpa_uebung2
 ```
 
-Benutzer und Passwort sind aktuell als `postgres` / `postgres` gesetzt. Fuer Unterrichts- oder Laborserver muessen `jakarta.persistence.jdbc.url`, `jakarta.persistence.jdbc.user` und `jakarta.persistence.jdbc.password` angepasst werden.
+Benutzer und Passwort sind aktuell als `Studierende` / `db-2017` gesetzt. Fuer eine andere Datenbank muessen `jakarta.persistence.jdbc.url`, `jakarta.persistence.jdbc.user` und `jakarta.persistence.jdbc.password` angepasst werden.
 
 ## Hinweis zu den Provider-Varianten
 

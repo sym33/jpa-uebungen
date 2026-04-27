@@ -10,9 +10,9 @@
     <class>ch.bfh.btx8053.jpa.family.Job</class>
     <properties>
       <property name="jakarta.persistence.jdbc.driver" value="org.postgresql.Driver"/>
-      <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/jpa_uebung2"/>
-      <property name="jakarta.persistence.jdbc.user" value="postgres"/>
-      <property name="jakarta.persistence.jdbc.password" value="postgres"/>
+      <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://10.248.11.105:5432/jpa_uebung2"/>
+      <property name="jakarta.persistence.jdbc.user" value="Studierende"/>
+      <property name="jakarta.persistence.jdbc.password" value="db-2017"/>
       <property name="eclipselink.target-database" value="PostgreSQL"/>
       <property name="eclipselink.logging.level" value="INFO"/>
       <property name="eclipselink.ddl-generation" value="drop-and-create-tables"/>
