@@ -28,7 +28,7 @@ public class Patient implements Serializable {
 
 	private String insurancenb;
 
-	private String name1;
+	private String name;
 
 	private String phone;
 
@@ -87,12 +87,12 @@ public class Patient implements Serializable {
 		this.insurancenb = insurancenb;
 	}
 
-	public String getName1() {
-		return this.name1;
+	public String getName() {
+		return this.name;
 	}
 
-	public void setName1(String name1) {
-		this.name1 = name1;
+	public void setName(String name) {
+		this.name = name;
 	}
 
 	public String getPhone() {
