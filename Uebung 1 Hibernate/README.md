@@ -4,7 +4,7 @@ Maven-Projekt fuer Jakarta Persistence mit Hibernate ORM 7.3.1.Final und Postgre
 
 ## Start
 
-1. PostgreSQL-Datenbank anlegen, zum Beispiel `jpa_uebung1`.
+1. PostgreSQL-Datenbank anlegen, zum Beispiel `Übung1`.
 2. Zugangsdaten in `src/main/resources/META-INF/persistence.xml` anpassen.
 3. Projekt in Eclipse oder IntelliJ als Maven-Projekt importieren.
 4. Ausfuehren:

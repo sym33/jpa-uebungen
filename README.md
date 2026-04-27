@@ -36,7 +36,7 @@ src/main/resources/META-INF/persistence.xml
 Voreingestellt sind lokale Datenbanken:
 
 ```text
-jdbc:postgresql://10.248.11.105:5432/jpa_uebung1
+jdbc:postgresql://10.248.11.105:5432/Übung1
 jdbc:postgresql://10.248.11.105:5432/jpa_uebung2
 ```
 
