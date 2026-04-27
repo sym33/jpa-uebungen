@@ -21,9 +21,10 @@ Alle Projekte verwenden Jakarta Persistence 3.2, PostgreSQL JDBC 42.7.10 und Jav
 ## In IntelliJ IDEA importieren
 
 1. `File > Open` waehlen.
-2. Einen der vier Projektordner auswaehlen.
-3. Als Maven-Projekt laden lassen.
-4. Die jeweilige Main-Klasse starten oder im Terminal `mvn clean compile exec:java` ausfuehren.
+2. Den Ordner `JPA-Uebungen-Repository` auswaehlen.
+3. Als Maven-Projekt laden lassen. IntelliJ erkennt ueber die Root-`pom.xml` alle vier Module.
+4. Im Maven-Fenster `Reload All Maven Projects` und danach `Lifecycle > compile` ausfuehren.
+5. Die jeweilige Main-Klasse starten oder im Terminal im passenden Unterordner `mvn clean compile exec:java` ausfuehren.
 
 ## PostgreSQL
 
