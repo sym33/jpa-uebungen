@@ -2,7 +2,7 @@ package model;
 
 import java.io.Serializable;
 import jakarta.persistence.*;
-import java.util.Date;
+import java.time.LocalDate;
 
 
 /**
@@ -17,8 +17,7 @@ public class Patient implements Serializable {
 	@Id
 	private Integer patientnb;
 
-	@Temporal(TemporalType.DATE)
-	private Date birthdate;
+	private LocalDate birthdate;
 
 	private String city;
 
@@ -47,11 +46,11 @@ public class Patient implements Serializable {
 		this.patientnb = patientnb;
 	}
 
-	public Date getBirthdate() {
+	public LocalDate getBirthdate() {
 		return this.birthdate;
 	}
 
-	public void setBirthdate(Date birthdate) {
+	public void setBirthdate(LocalDate birthdate) {
 		this.birthdate = birthdate;
 	}
 

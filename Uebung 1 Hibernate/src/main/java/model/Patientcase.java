@@ -2,7 +2,7 @@ package model;
 
 import java.io.Serializable;
 import jakarta.persistence.*;
-import java.util.Date;
+import java.time.LocalDate;
 
 
 /**
@@ -19,15 +19,13 @@ public class Patientcase implements Serializable {
 
 	private String diagnosis;
 
-	@Temporal(TemporalType.DATE)
-	private Date fromdate;
+	private LocalDate fromdate;
 
 	private Integer patientnb;
 
 	private String status;
 
-	@Temporal(TemporalType.DATE)
-	private Date todate;
+	private LocalDate todate;
 
 	public Patientcase() {
 	}
@@ -48,11 +46,11 @@ public class Patientcase implements Serializable {
 		this.diagnosis = diagnosis;
 	}
 
-	public Date getFromdate() {
+	public LocalDate getFromdate() {
 		return this.fromdate;
 	}
 
-	public void setFromdate(Date fromdate) {
+	public void setFromdate(LocalDate fromdate) {
 		this.fromdate = fromdate;
 	}
 
@@ -72,11 +70,11 @@ public class Patientcase implements Serializable {
 		this.status = status;
 	}
 
-	public Date getTodate() {
+	public LocalDate getTodate() {
 		return this.todate;
 	}
 
-	public void setTodate(Date todate) {
+	public void setTodate(LocalDate todate) {
 		this.todate = todate;
 	}
 
